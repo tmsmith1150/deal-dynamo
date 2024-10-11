@@ -1,0 +1,122 @@
+[
+  {
+    "owner": "1",
+    "name": "Montclaire Tall Chest",
+    "type": "Case Goods",
+    "sku": "145454   424",
+    "location": "51",
+    "regular_price": "599.00",
+    "disc_price": "299.00",
+    "options": "86033 TL 939",
+    "serial_number": "77",
+    "seller_info": {
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "phone": "617-555-5555"
+    },
+    "images": ["14-5454_424_F.webp", "14-5454_424_FL_dimension.webp", "14-5454_424_FL.webp"],
+    "is_featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "owner": "1",
+    "name": "Montclaire Tall Chest",
+    "type": "Upholstery",
+    "sku": "145454   424",
+    "location": "51",
+    "regular_price": "599.00",
+    "disc_price": "299.00",
+    "options": "86033 TL 939",
+    "serial_number": "77",
+    "seller_info": {
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "phone": "617-555-5555"
+    },
+    "images": ["14-5454_424_F.webp", "14-5454_424_FL_dimension.webp", "14-5454_424_FL.webp"],
+    "is_featured": false,
+    "createdAt": "2024-01-02T00:00:00.000Z",
+    "updatedAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "owner": "2",
+    "name": "Montclaire Tall Chest",
+    "type": "Area Rugs",
+    "sku": "145454   424",
+    "location": "51",
+   "regular_price": "599.00",
+    "disc_price": "299.00",
+    "options": "86033 TL 939",
+    "serial_number": "77",
+    "seller_info": {
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "phone": "617-555-5555"
+    },
+    "images": ["14-5454_424_F.webp", "14-5454_424_FL_dimension.webp", "14-5454_424_FL.webp"],
+    "is_featured": false,
+    "createdAt": "2024-01-03T00:00:00.000Z",
+    "updatedAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "owner": "2",
+    "name": "Montclaire Tall Chest",
+    "type": "Case Goods",
+    "sku": "145454   424",
+    "location": "51",
+   "regular_price": "599.00",
+    "disc_price": "299.00",
+    "options": "86033 TL 939",
+    "serial_number": "77",
+    "seller_info": {
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "phone": "617-555-5555"
+    },
+    "images": ["14-5454_424_F.webp", "14-5454_424_FL_dimension.webp", "14-5454_424_FL.webp"],
+    "is_featured": false,
+    "createdAt": "2024-01-04T00:00:00.000Z",
+    "updatedAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "owner": "2",
+    "name": "Montclaire Tall Chest",
+    "type": "Case Goods",
+    "sku": "145454   424",
+    "location": "51",
+   "regular_price": "599.00",
+    "disc_price": "299.00",
+    "options": "86033 TL 939",
+    "serial_number": "77",
+    "seller_info": {
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "phone": "617-555-5555"
+    },
+    "images": ["14-5454_424_F.webp", "14-5454_424_FL_dimension.webp", "14-5454_424_FL.webp"],
+    "is_featured": false,
+    "createdAt": "2024-01-04T00:00:00.000Z",
+    "updatedAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "owner": "3",
+    "name": "Montclaire Tall Chest",
+    "type": "Case Goods",
+    "sku": "145454   424",
+    "location": "51",
+   "regular_price": "599.00",
+    "disc_price": "299.00",
+    "options": "86033 TL 939",
+    "serial_number": "77",
+    "seller_info": {
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "phone": "617-555-5555"
+    },
+    "images": ["14-5454_424_F.webp", "14-5454_424_FL_dimension.webp", "14-5454_424_FL.webp"],
+    "is_featured": false,
+    "createdAt": "2024-01-04T00:00:00.000Z",
+    "updatedAt": "2024-01-04T00:00:00.000Z"
+  }
+]
