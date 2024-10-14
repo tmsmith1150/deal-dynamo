@@ -5,7 +5,7 @@ const ProductCard = ({ product }) => {
     return ( 
         <div className="rounded-xl shadow-md relative">
             <Image
-              src={`/images/products/${product.images[0]}`}
+              src={product.images[0]}
               alt=""
               height={0}
               width={0}
@@ -40,12 +40,11 @@ const ProductCard = ({ product }) => {
                 <div className="flex align-middle gap-2 mb-4 lg:mb-0">
                   <span className="text-gray-700">Reg Retail: {product.regular_price}</span>
                 </div>
-                <a
-                  href="property.html"
-                  className="h-[36px] bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-center text-sm"
-                >
+                <Link
+                  href={`/products/${product._id}`}
+                  className="h-[36px] bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-center text-sm">
                   Details
-                </a>
+                </Link>
               </div>
             </div>
           </div>
