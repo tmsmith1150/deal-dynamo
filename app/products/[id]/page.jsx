@@ -5,12 +5,22 @@ import ProductDetails from "@/components/ProductDetails";
 import Link from 'next/link';
 import { FaArrowLeft } from "react-icons/fa";
 import ProductImages from '@/components/ProductImages';
+import { convertToSerializableObject } from "@/utils/convertToObject";
+
 
 const ProductPage = async ({ params }) => {
     await connectDB();
-    const product = await Product.findById(params.id).lean();
 
-    return ( 
+    const productDoc = await Product.findById(params.id).lean();
+    const product = convertToSerializableObject(productDoc);
+
+    if (!product) {
+        return (
+            <h1 className='text-center text-2xl font-bold mt-10'>Product Not Found</h1>
+        );
+    }
+
+    return (
         <>
             <ProductHeaderImage image={product.images[0]} />
             <section>
@@ -26,13 +36,13 @@ const ProductPage = async ({ params }) => {
             <section className="bg-blue-50">
                 <div className="container m-auto py-10 px-6">
                     <div className="grid grid-cols-1 md:grid-cols-70/30 w-full gap-6">
-                    <ProductDetails product={product} />
+                        <ProductDetails product={product} />
                     </div>
-                    </div>
-                    </section>
-                    <ProductImages images={product.images} />
-                    </>
-                    );
+                </div>
+            </section>
+            <ProductImages images={product.images} />
+        </>
+    );
 }
 
-                    export default ProductPage;
+export default ProductPage;
