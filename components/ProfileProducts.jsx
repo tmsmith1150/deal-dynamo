@@ -11,7 +11,7 @@ const ProfileProducts = ({products:initialProducts}) => {
         
         products.map((product) => (
             <div key={product._id} className="mb-10">
-                    <Link href={`/products/${products._id}`}>
+                    <Link href={`/products/${product._id}`}>
                       <Image
                         className="h-auto w-full rounded-md object-cover"
                         src={product.images[0]}

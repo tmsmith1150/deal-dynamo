@@ -19,7 +19,6 @@ const ProfilePage = async () => {
 
     const productsDocs = await Product.find({ store: userId }).lean();
     const products = productsDocs.map(convertToSerializableObject)
-    console.log(products);
 
     return ( 
         // <!-- Profile Section -->
